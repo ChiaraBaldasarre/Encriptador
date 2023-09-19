@@ -18,8 +18,6 @@ Método de cifrado:
 
 'e' se reemplaza por 'enter'
 
-#chalengeonecodificador5 - Oracle Next Education
-
 'i' se reemplaza por 'imes'
 
 'o' se reemplaza por 'ober'
@@ -27,3 +25,5 @@ Método de cifrado:
 'u' se reemplaza por 'ufat'
 
 El encriptador no respeta mayúsculas ni acentos.
+
+#chalengeonecodificador5 - Oracle Next Education
