@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de Texto</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+        
+    </header>
+
+    <main>
+        <div class="input-area">
+            <textarea name="input" id="input" placeholder="Ingrese aquí su texto a encriptar"></textarea>
+
+            <div class="message">⚠ ¡El encriptador no conserva mayúsculas ni acentos!</div>
+
+            <div class="button-area">
+                <button class="encrypt-button" id="encrypt-button">Encriptar</button>
+                <button class="decrypt-button" id="decrypt-button">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="output-area">
+            <div class="output-init" id="output-init">
+                <img src="img/buscando.png" alt="Muneco buscando" width="100%">
+                <p class="output-first-message">Ningún mensaje fue encontrado</p>
+                <p class="output-secon-message">Ingrese el texto a encriptar</p>
+            </div>
+
+            <div class="output-response" id="output-response">
+                <textarea name="output" id="output" disabled="true"></textarea>
+                <button class="copy" id="copy">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a class="sociales" href="https://www.linkedin.com/in/chiara-baldasarre-5883ba274/" target="_blank"><img
+                    src="img/linkedin.png" alt="Logo Linkedin"></a>
+            <a class="sociales" href="https://github.com/ChiaraBaldasarre" target="_blank"><img src="img/github.png"
+                    alt="Logo Github"></a>
+        </div>
+        © Chiara ChiaraBaldasarre - 2023
+    </footer>
+
+    <script src="encrypter.js"></script>
+
+</body>
+
+</html>
